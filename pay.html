@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PAYEMENT PAGE</title>
+    <link rel="stylesheet" href="pay.css">
+    
+</head>
+<body>
+    <form action="">
+        
+    <h1 class="main_heading"><center>Contact details</center></h1>
+    <h2>* required fields</h2>
+    <p><i>enter the name:*</i><input type="text" name="name" id="name" required placeholder="alok tiwari"></p>
+    <fieldset>
+        <legend>GENDER:*</legend>
+        <p>male <input type="radio" name="gender" id="male">female <input type="radio" name="gender" id="female"></p>
+    </fieldset>
+    <p>enter the email: *<input type="email" name="email_id" id="email_id" required placeholder="om123@gmail.com"></p>
+    <p>password:* <input type="password" name="password" id="password" required placeholder="123456"></p>
+    <p>enter the DOB:* <input type="date" name="date" id="date" required placeholder="11/06/2021"></p>
+    <p>enter the address <textarea name="address" id="" cols="30" rows="10" placeholder="enter your adress"></textarea></p>
+    <p>
+        <fieldset>
+            <legend>payement options</legend>
+            <div style="display: flex; justify-content: center;align-items: center;">
+            <img class="clip_art" src="paylogo.jpg" alt="">
+        </div>
+        <p> enter the card details:*</p>
+        <select name="card type" id="card type">
+        <option value="">---select your card type---</option>
+        <option value="visa">visa</option>
+        <option value="rupay">rupay</option>
+        <option value="mastercard">mastercard</option>
+    </select>
+    </p>
+    
+    <p>enter the card number:* <input type="number" name="card_no" id="card_no" required placeholder="456987136"> enter the card holder name:* <input type="text" name="name_cus" id="name_cus" required placeholder="priyanshu kumar"></p>
+    <p>CVV* <input type="password" name="pass" id="pass" required placeholder="123"></p>
+    <p>exp date <input type="date" name="exp_date" id="exp_date" placeholder="06/21"></p>
+</fieldset>
+    <input type="button" value="pay now">
+</form> 
+</body>
+</html>

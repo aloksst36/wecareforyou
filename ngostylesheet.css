@@ -1,0 +1,60 @@
+.header{
+padding: 30px;
+margin: 10px;
+color: whitesmoke;
+background-color: black;
+position: relative;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-decoration: none;
+
+}
+body{
+    background-image: url(tex.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 4;
+}
+.footer{
+text-align: center;
+padding: 30px;
+margin: 10px;
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+position: relative;
+color: wheat;
+}
+.para{
+    padding: 20px;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: larger;
+    font-weight: bolder;
+    color: wheat;
+   word-spacing: 10px;
+   text-align: center;
+}
+.vim{
+    padding: 35px;
+    margin: 10px;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: larger;
+    font-weight: bolder;
+    }
+    .last{
+padding: 20px;
+margin: 10px;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: larger;
+    font-weight: bolder;
+text-align: right;
+    }
+    .image{
+        padding: 10px;
+        float: left;
+    }
+  
